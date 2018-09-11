@@ -1,7 +1,7 @@
 
-radius = input("Input the circles radius")
-PI = 3.1416
+radius = float(input("Input the circles radius "))
+PI = 3.14159265
 
 area = PI*radius**2
 
-print(area)
+print("%.2f" % area)

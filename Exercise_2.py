@@ -1,8 +1,13 @@
 
-print("Hello, Exercise 2")
-number_1 = int(input("Please enter the first number: "))
-number_2 = int(input("Please enter the second number: "))
+print("Exercise 2:\nThis program rounds the division to the next integer in the positive direction")
+number_1 = float(input("Please enter the first number: "))
+number_2 = float(input("Please enter the second number: "))
 
-division = int(((number_1 - 1)//number_2)) + 1
+division = (number_1/number_2)
+rounded_division = 0
 
-print("The rounded up division is: ", division)
+if division-int(division) != 0:
+    if division > 0:
+        rounded_division = int(division + 1)
+
+print("The float value of the division is: ", division, "\nThe rounded up division is: ", rounded_division)

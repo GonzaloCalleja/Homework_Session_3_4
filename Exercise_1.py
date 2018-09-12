@@ -1,3 +1,3 @@
 
-name = (input("Exercise 1:\n Please state your name: "))
+name = (input("Exercise 1:\nPlease state your name: "))
 print("Hello %s !" % name)

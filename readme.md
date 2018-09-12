@@ -1,7 +1,6 @@
 # First Homework
 
-##### In main.py all exercises are contained by importing them (that's why all exercises are inside functions)
-
+##### In main.py all exercises are contained by importing them
 
 1) Write a program that asks for your name and prints: “Hello <name>!”
 

@@ -10,4 +10,8 @@ if division-int(division) != 0:
     if division > 0:
         rounded_division = int(division + 1)
 
+
+correct_round = round(division)
+
 print("The float value of the division is: ", division, "\nThe rounded up division is: ", rounded_division)
+print("The correctly rounded version is: ", correct_round)
